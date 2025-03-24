@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
-import Stories from "./Stories";
-import Posts from "./Posts";
-import SideBar from "./SideBar";
+import Navbar from "./pages/Navbar"
+import Stories from "./pages/Stories";
+import Posts from "./pages/Posts";
+import SideBar from "./pages/SideBar";
 export default function App() {
   return (
     <>
