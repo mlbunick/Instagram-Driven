@@ -1,4 +1,5 @@
 import React from "react";
+import { IoPencil } from "react-icons/io5";
 
 export default function User() {
     const [nome, setNome] = React.useState("catanacomics");
@@ -38,7 +39,15 @@ export default function User() {
             <div className="texto">
                 <span>
                     <strong>{nome}</strong>
-                    <ion-icon name="pencil" onClick={inserirNome}></ion-icon>
+                    <IoPencil 
+                        onClick={inserirNome} 
+                        style={{ 
+                            cursor: "pointer",
+                            marginLeft: "5px",
+                            fontSize: "16px",
+                            verticalAlign: "middle"
+                        }} 
+                    />
                 </span>
             </div>
         </div>

@@ -1,29 +1,36 @@
-export default function Navbar(){
-    return (
+import { 
+  IoLogoInstagram,
+  IoPaperPlaneOutline,
+  IoCompassOutline,
+  IoHeartOutline,
+  IoPersonOutline 
+} from "react-icons/io5";
 
-        <div class="navbar">
-              <div class="container">
-                <div class="logo">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                  <div class="separador"></div>
-                  <img src="/assets/img/logo.png" alt="logo"/>
-                </div>
-      
-                <div class="pesquisa">
-                  <input type="text" placeholder="Pesquisar" />
-                </div>
-      
-                <div class="icones">
-                  <ion-icon name="paper-plane-outline"></ion-icon>
-                  <ion-icon name="compass-outline"></ion-icon>
-                  <ion-icon name="heart-outline"></ion-icon>
-                  <ion-icon name="person-outline"></ion-icon>
-                </div>
-      
-                <div class="icones-mobile">
-                  <ion-icon name="paper-plane-outline"></ion-icon>
-                </div>
-              </div>
-            </div>
-        )
+export default function Navbar() {
+  return (
+    <div className="navbar">
+      <div className="container">
+        <div className="logo">
+          <IoLogoInstagram size={24} />
+          <div className="separador"></div>
+          <img src="/assets/img/logo.png" alt="logo" />
+        </div>
+
+        <div className="pesquisa">
+          <input type="text" placeholder="Pesquisar" />
+        </div>
+
+        <div className="icones">
+          <IoPaperPlaneOutline size={24} className="icon" />
+          <IoCompassOutline size={24} className="icon" />
+          <IoHeartOutline size={24} className="icon" />
+          <IoPersonOutline size={24} className="icon" />
+        </div>
+
+        <div className="icones-mobile">
+          <IoPaperPlaneOutline size={24} className="icon" />
+        </div>
+      </div>
+    </div>
+  );
 }
