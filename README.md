@@ -6,11 +6,11 @@ Este projeto é um clone do Instagram desenvolvido em **React**, baseado em um l
 
 O projeto foi construído a partir de um layout pronto, utilizando HTML, CSS e imagens fornecidas. A versão final busca replicar a aparência e funcionalidades principais do feed do Instagram na versão desktop.
 
-## 🛠️ Tecnologias Utilizadas
+## 📌 Tecnologias Utilizadas
 
-- React
-- JavaScript (ES6+)
-- HTML e CSS
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## ✅ Funcionalidades Implementadas
 
