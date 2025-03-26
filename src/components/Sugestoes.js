@@ -1,3 +1,4 @@
+import Sugestao from "./Sugestao"
 export default function Sugestoes(){
 
     const sugestoes = [
@@ -19,21 +20,5 @@ export default function Sugestoes(){
             {sugestoes.map(sugestao => <Sugestao usuario={sugestao.usuario} imagem={sugestao.img} razao={sugestao.razao}/>)}
 
         </div>
-    )
-}
-
-function Sugestao(props){
-    return(
-    <div class="sugestao">
-        <div class="usuario">
-            <img src={props.imagem} alt={props.usuario}/>
-            <div class="texto">
-                <div class="nome">{props.usuario}</div>
-                <div class="razao">{props.razao}</div>
-            </div>
-        </div>
-
-        <div class="seguir">Seguir</div>
-    </div>
     )
 }

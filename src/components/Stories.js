@@ -1,3 +1,4 @@
+import Story from "./Story";
 export default function Stories(){
     const stories = [
         {img: "/assets/img/9gag.svg", usuario: "9gag" },
@@ -17,19 +18,6 @@ export default function Stories(){
 
             <div class="setinha">
                 <ion-icon name="chevron-forward-circle"></ion-icon>
-            </div>
-        </div>
-    )
-}
-
-function Story(props){
-    return(
-        <div class="story">
-            <div class="imagem">
-              <img src={props.imagem} alt={props.usuario}/>
-            </div>
-            <div class="usuario">
-                {props.usuario}
             </div>
         </div>
     )
